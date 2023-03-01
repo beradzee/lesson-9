@@ -1,0 +1,86 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* width and height example */
+/* @media (max-width:800px) {
+    .left-block, .right-block {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-width:480px) {
+    .right-block {
+        display: none;
+    }
+}
+@media (max-width:400px) {
+    .right-block {
+        display: block;
+    }
+} */
+/* flex-direction example 2 */
+/* @media (max-width:950px) {
+    .container {
+        max-width: 375px;
+        width: 100%;
+    }
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .center-block {
+        margin: 50px 0 50px 0;
+    }
+} */
+/* flex-wrap example 3 */
+@media (max-width:600px) {
+    .wrapper {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .center-block {
+        margin: 50px 0 50px 0;
+    }
+
+}
+/* image example */
+/* @media (max-width:1024px) {
+    .img-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+@media (max-width:1024px) {
+    .image-block {
+        width: 48%;
+    }
+}
+@media (max-width:480px) {
+    .image-block {
+        width: 90%;
+    }
+    .img-wrapper {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .image-block:nth-child(4) {
+        display: none;
+    }
+}
+/* header */
+@media (max-width:750px) {
+    .nav-ul {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
+@media (max-width:600px){.wrapper{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.center-block{margin:50px 0}}@media (max-width:1024px){.image-block{width:48%}}@media (max-width:480px){.image-block{width:90%}.img-wrapper{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.image-block:nth-child(4){display:none}}@media (max-width:750px){.nav-ul{display:none}.burger-icon{display:block}}
